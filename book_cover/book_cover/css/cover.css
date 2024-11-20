@@ -1,0 +1,198 @@
+@font-face {
+	font-family:"RobotoFlex";
+	src: url("../fonts/RobotoFlex.ttf") format("truetype");
+	font-weight: 600;
+}
+
+
+.container {
+	width:400px;
+	height:600px;
+	border: 2px solid black;
+	position: absolute;
+	top: 50% ;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: white;
+	overflow: hidden;
+}
+
+.title {
+	font-family: "RobotoFlex";
+	font-size: 40px;
+	top: 48px;
+	left: 35px;
+	color: black;
+	position: relative;
+	z-index: 1;
+}
+
+.title2 {
+	font-family: "RobotoFlex";
+	font-size: 40px;
+	top: 40px;
+	left: 35px;
+	color: black;
+	position: relative;
+	z-index: 2;
+}
+
+
+.sub1 {
+	font-family: "RobotoFlex";
+	font-size: 23px;
+	top: 95px;
+	left: 35px;
+	color: black;
+	position: relative;
+	z-index: 3;
+}
+
+
+.sub2 {
+	font-family: "RobotoFlex";
+	font-size: 23px;
+	top: 100px;
+	left: 35px;
+	color: black;
+	position: relative;
+	z-index: 4;
+}
+
+.author {
+	font-family: "RobotoFlex";
+	font-size: 23px;
+	top: 77px;
+	left: 290px;
+	color: black;
+	position: relative;
+	z-index: 5;
+}
+
+
+.robo {
+	font-family: "RobotoFlex";
+	font-size: 115px;
+	color: black;
+	position: absolute;
+	z-index: 6;
+}
+
+
+.robo:hover {
+	filter: blur(5px);
+	transition: 0.3s;
+}
+
+
+
+.o {
+	left: 5px;
+	top: -200px;
+	animation: o_fall 15s infinite;
+}
+
+@keyframes o_fall {
+	0% { top: -70px; }
+	100% { top: 320px; }
+}
+
+
+
+.n {
+	left: 70px;
+	top: -50px;
+	animation: n_fall 15s infinite;
+}
+
+@keyframes n_fall {
+	0% { top: -50px; }
+	100% { top: 290px; }
+}
+
+
+
+.g {
+	left: 130px;
+	top: -100px;
+	animation: g_fall 15s infinite;
+}
+
+@keyframes g_fall {
+	0% { top: -100px; }
+	100% { top: 360px; }
+}
+
+
+
+.r {
+	left: 200px;
+	top: -100px;
+	animation: r_fall 15s infinite;
+}
+
+@keyframes r_fall {
+	0% { top: -100px; }
+	100% { top: 330px; }
+}
+
+
+.a {
+	left: 200px;
+	top: -30px;
+	animation: a_fall 15s infinite;
+}
+
+@keyframes a_fall {
+	0% { top: 0px; }
+	100% { top: 400px; }
+}
+
+
+.v {
+	left: 250px;
+	top: 0px;
+	animation: v_fall 15s infinite;
+}
+
+@keyframes v_fall {
+	0% { top: 0px; }
+	100% { top: 430px; }
+}
+
+
+.i {
+	left: 290px;
+	top: 0px;
+	animation: i_fall 15s infinite;
+}
+
+@keyframes i_fall {
+	0% { top: 0px; }
+	100% { top: 340px; }
+}
+
+
+.t {
+	left: 320px;
+	top: 0px;
+	animation: t_fall 15s infinite;
+}
+
+@keyframes t_fall {
+	0% { top: 0px; }
+	100% { top: 380px; }
+}
+
+
+.y {
+	left: 345px;
+	top: 0px;
+	animation: y_fall 15s infinite;
+}
+
+@keyframes y_fall {
+	0% { top: 0px; }
+	100% { top: 400px; }
+}
+
